@@ -1,6 +1,6 @@
 import db from "#db/client";
 import {createPlaylist} from "./quries/playlists.js";
-import createPlaylistsTracks from "./quries/playlistsTracks.js";
+import {createPlaylistsTracks} from "./quries/playlistsTracks.js";
 import {createTrack} from "./quries/tracks.js";
 import { faker } from "@faker-js/faker";
 
